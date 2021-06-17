@@ -1,0 +1,24 @@
+<div id="detailspage">
+<app-header-medicine [content]="pageContent.header">
+</app-header-medicine>
+    <div class="center">
+    <p>Medicine name is: {{newmedicine.name}}</p>
+    <p>Medication used to treat: {{newmedicine.disease}}</p>
+    <p>Medicine Price is: {{newmedicine.price}}</p>
+    <p>Medicine produced by: {{newmedicine.companyname}}</p>
+    <p>Medicine contains: {{newmedicine.quantity}}</p>
+    <p>Medicine's type is: {{newmedicine.type}}</p>
+    <p>Effectiveness Out of 5: {{newmedicine.effectiveness}}</p>
+    
+    <!-- <ul>
+    <li *ngFor="let medicine of newmedicine;">
+    <a routerLink="/medicines/delete/{{medicine._id}}">Delete </a> &nbsp; |  &nbsp;
+    <a routerLink="/medicines/update/{{medicine._id}}">Update</a>
+    </li>
+    </ul> -->
+    
+    <button type="submit" class="button"><a routerLink="/medicines/delete/{{newmedicine._id}}">Delete </a></button> &nbsp; |  &nbsp;
+    <button type="submit" class="button"><a routerLink="/medicines/update/{{newmedicine._id}}">Update</a></button><br>
+    <a routerLink="" class="abc">Back to home</a>
+</div>
+</div>

@@ -1,0 +1,13 @@
+#homepage{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border: 3px solid white;
+    padding: 10px;
+  }
+

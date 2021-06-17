@@ -1,0 +1,29 @@
+<div id="updatepage">
+<br>
+<div class="center">
+<form (ngSubmit)="updatenewMedicine(selectedMedicine)">
+    <br>
+    <label for="name">Name:   </label>
+    <input [(ngModel)]="selectedMedicine.name" id="name" name="name" placeholder="Enter Medicine name " required="required"><br><br>
+    <label for="disease">Disease:  </label>
+    <input [(ngModel)]="selectedMedicine.disease" id="disease" name="disease" placeholder="Enter Disease" required="required"><br><br>
+    <label for="price">Price:   </label>
+    <input [(ngModel)]="selectedMedicine.price" id="price" name="price" placeholder="Enter Price" required="required"><br><br>
+    <label for="companyname">Company Name:</label>
+    <input [(ngModel)]="selectedMedicine.companyname" id="companyname" placeholder="Enter Company Name " name="category" required="required"><br><br>
+    <label for="rating">Quantity: </label>
+    <input [(ngModel)]="selectedMedicine.quantity" id="quantity" placeholder="Enter Quantity" name="rating" required="required"><br><br>
+    <label for="type">Type:   </label>
+    <input [(ngModel)]="selectedMedicine.type" id="type" name="type" placeholder="Enter Type" required="required"><br><br>
+    <label for="effectiveness">Effectiveness:   </label>
+    <input [(ngModel)]="selectedMedicine.effectiveness" id="effectiveness" placeholder="Enter Medicine Effectiveness" name="effectiveness" required="required"><br><br>
+    <!-- <button >
+        Update
+    </button><br><br> -->
+    <button type="submit" onclick="myFunction()">Update</button>
+
+
+    <a routerLink="">Back to home</a>
+</form>
+</div>
+</div>

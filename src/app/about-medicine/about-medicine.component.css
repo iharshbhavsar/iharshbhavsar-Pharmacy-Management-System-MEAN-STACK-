@@ -1,0 +1,36 @@
+/*p{
+    width:65%;
+    line-height: 2em;
+    font-size: 1.35em;
+}
+*/
+
+
+p{
+    padding-top: 5%;
+    padding-right: 10%;
+   padding-left: 10%;
+    color: white;
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+h1{
+    margin-top: 5%;
+    font-family: cursive;
+    text-align: center;
+}
+#aboutpage{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid white;
+    padding: 10px;
+  }

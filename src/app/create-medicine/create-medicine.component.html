@@ -1,0 +1,29 @@
+
+<div id="createpage">
+<br>
+<div class="center">
+<form (ngSubmit)="createNewMedicine(newmedicine)" >
+    
+    <br>
+    <label for="name">Name:   </label>
+    <input [(ngModel)]="newmedicine.name" id="name" name="name" placeholder="Enter Medicine name " required="required"><br><br>
+    <label for="disease">Disease:  </label>
+    <input [(ngModel)]="newmedicine.disease" id="disease" name="disease" placeholder="Enter Disease" required="required"><br><br>
+    <label for="price">Price:   </label>
+    <input [(ngModel)]="newmedicine.price" id="price" name="price" placeholder="Enter Price" required="required"><br><br>
+    <label for="companyname">Company Name:</label>
+    <input [(ngModel)]="newmedicine.companyname" id="companyname" placeholder="Enter Company Name " name="companyname" required="required"><br><br>
+    
+    <label for="Quantity">Quantity: </label>
+    <input [(ngModel)]="newmedicine.quantity" id="quantity" placeholder="Enter Quantity" name="quantity" required="required"><br><br>
+    <label for="type">Type:   </label>
+    <input [(ngModel)]="newmedicine.type" id="type" name="type" placeholder="Enter Type" required="required"><br><br>
+    <label for="effectiveness">Effectiveness:   </label>
+    <input [(ngModel)]="newmedicine.effectiveness" id="effectiveness" placeholder="Enter Medicine Effectiveness" name="effectiveness" required="required"><br><br>
+    <button type="submit" value="submit" onclick="myFunction1()" >
+       CREATE
+    </button><br><br>
+    <a routerLink="">Back to home</a>
+</form>
+</div>
+</div>

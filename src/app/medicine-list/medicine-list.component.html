@@ -1,0 +1,8 @@
+
+<ul id="ulline">
+    <li *ngFor="let medicine of medicines;" class="none">
+        Name of the medicine : 
+        <a routerLink="/medicines/{{ medicine._id }}" >{{medicine.name}}</a>
+    </li>
+
+</ul>
